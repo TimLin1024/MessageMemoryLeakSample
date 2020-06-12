@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/mBtnDumpThreadInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mBtnDumpThreadInfo"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/mBtnNormalDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mBtnNormalDialog"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/mBtnShowAvoidLeakDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mBtnShowAvoidLeakDialog"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/mBtnShowNormalDialogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mBtnShowNormalDialogFragment"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/mBtnShowAvoidLeakDialogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mBtnShowAvoidLeakDialogFragment"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/mBtnShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show dialog" />
+
+    <Button
+        android:id="@+id/mBtnDismiss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dismiss dialog" />
+</LinearLayout>
